@@ -6,7 +6,7 @@
 Previo a cualquier configuración necesitaremos acceso a una suscripción de Azure en donde tengamos los privilegios suficientes para realizar las tareas siguientes y un servicio de Power BI Embedded dado de alta, para fines de la demostración estaremos utilizando el rol de contribuidor, sin embargo, para ambientes con restricciones es posible realizar las actividades con permisos granulares, la configuración de dichos permisos y del componente de Power BI Embedded se encuentran fuera del alcance de este documento.
 ### Pasos para la configuración de Azure Automation Account
 1.	Generar una nueva Azure Automation Account desde el portal con una identidad administrada asignada por el sistema
-2.  Actualizar los módulos Az.Accounts y Az.PowerBIEmbeddedCapacity
+2.  Actualizar los módulos Az.Accounts y Az.PowerBIEmbedded
 3.	Dentro del componente Automation Account generar las siguientes 4 variables:
     1.	pbie asignándole el nombre del recurso Power BI Embedded
     2.	pbierg asignándole el nombre del grupo de recursos al que pertenece el recurso Power BI Embedded
